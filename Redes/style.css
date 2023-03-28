@@ -1,0 +1,45 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.0rem;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    font-size: 1.0rem;
+}
+main{
+    display: flex;
+    justify-content: center;    
+}
+
+.card{
+    font-family: 'Times New Roman', Times, serif ;
+    background-color: wheat;
+    width: 70.0rem;
+    padding: 2.0rem;
+    padding-top: 0.8rem;
+    border-radius: 1.5rem;
+    border: rgb(128, 111, 80) 0.2rem solid;
+    margin-top: 4.0rem;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.card2{
+    font-family: 'Times New Roman', Times, serif ;
+    background-color: wheat;
+    width: 70.0rem;
+    padding: 2.0rem;
+    padding-top: 0.1rem;
+    border-radius: 1.5rem;
+    border: rgb(128, 111, 80) 0.2rem solid;
+}
