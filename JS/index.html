@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+<pre>
+        <h2>1. Escreva uma função JavaScript para validar se um determinado tipo de valor é booleano ou não.</h2>
+        <p>
+            const a = true;
+            const b = "teste";
+            
+            if(typeof a === "boolean") {
+            console.log("É booleano!");
+            }
+            
+            if(typeof b === "boolean") {
+             console.log("É booleano!");
+            }
+        </p>
+        
+        <h2>2. Escreva uma função JavaScript para validar se um determinado tipo de valor é um erro ou não.</h2>
+        <p>
+            minhaOutraVariavel = "Olá";
+          
+            if (typeof minhaVariavel == "undefined") 
+            {
+               alert("Ops! Parece que esta variável não existe ou não está definida neste escopo!");
+            }
+          
+            if (typeof minhaOutraVariavel != "undefined") 
+            {
+               alert("Legal, achei esta variável dentro do escopo!"); 
+            } 
+        </p>
+    
+        <h2>3. Escreva uma função JavaScript para validar se um determinado tipo de valor é NaN ou não.</h2>
+        <p>
+            function milliseconds(x) {
+            if (isNaN(x)) {
+              return 'Not a Number!';
+            }
+            return x * 1000;
+            }
+          
+            console.log(milliseconds('100F'));
+            // Expected output: "Not a Number!"
+          
+            console.log(milliseconds('0.0314E+2'));
+            // Expected output: 3140
+        </p>
+         
+        <h2>4. Escreva uma função JavaScript para validar se um determinado tipo de valor é nulo ou não.</h2>
+        <p>
+            var a = null;  
+            
+            console.log(typeof a);
+            console.log(typeof a === "undefined");
+            
+            console.log(typeof a === null);      
+            console.log(typeof a == null);
+            </p>
+
+        <h2>5. Escreva uma função JavaScript para validar se um determinado valor é número ou não.</h2>
+        <p>
+            function isNumber(n) {
+            return !isNaN(parseFloat(n)) && isFinite(n);
+            }
+
+            isNumber('123'); // true
+            isNumber('asda123'); // false
+        </p>    
+
+        <h2>6. Escreva uma função JavaScript para validar se um determinado valor é objeto ou não.</h2>
+        <p>   
+            const a = {}
+            
+            if(typeof a !== "undefined") {
+            console.log("Objeto A existe!")
+            }
+            
+            if(typeof b !== "undefined") {
+            console.log("Objeto B existe!")
+            }
+        </p>
+
+        <h2>7. Escreva uma função JavaScript para validar se um determinado tipo de valor é um objeto json puro ou não.</h2>
+        <p>
+            {“endereco”: [
+            
+                {
+               “rua”: Leonor Viana,
+               “cidade”: São Paulo,
+               “estado”: SP
+            }
+            ]};
+        </p>
+         
+        <h2>8. Escreva uma função JavaScript para validar se um determinado valor é RegExp ou não.</h2>
+        <p>
+            function stringSearch() {
+              var str = "Expressões regulares em JavaScript na DevMedia!";
+              var n = str.search(/[j+]/i);
+              alert(n);
+             }
+        </p>
+           
+        <h2>9. Escreva uma função JavaScript para validar se um determinado tipo de valor é char ou não.</h2>
+        <p> 
+            var num = 0;
+            var char = "a";
+
+            console.log(char == num);
+        </p>
+
+        <h2>10. Escreva uma função JavaScript para verificar se os tipos de valor fornecidos são iguais ou não.</h2>         
+        <p>   
+            var string1 = "1";
+            var string2 = "1";
+
+            console.log(string1 === string2);
+        </p>
+        </pre>
+    </body>
+</html>
+

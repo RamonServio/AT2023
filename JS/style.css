@@ -1,0 +1,15 @@
+h2{
+    font-family: 'Times New Roman', cursive;
+    color: #000000;
+    font-size: 25px;
+}
+
+body{
+    background: dimgrey;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(74, 16, 150);
+    font-size: 17px;
+}
