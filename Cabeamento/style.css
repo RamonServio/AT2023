@@ -1,0 +1,83 @@
+
+h5,h6{
+    color: black;
+    font-size: 18px;
+  }
+
+.card{
+  font-family: Helvetica, sans-serif;
+color: white;
+background-color: #6959CD;
+width: 650px;
+height: 220px;
+border-radius: 20px;
+padding: 30px;
+text-align: center;
+margin-left: 200px;
+margin-bottom: 20px;
+border-bottom: 5px solid #191970;
+position: relative;
+}
+
+.card2{
+color: white;
+background-color: #6959CD;
+border-radius: 2.0rem;
+padding: 2.0rem;
+text-align: center;
+border-bottom: 0.5rem solid #191970;
+}
+
+.card3{
+color: white;
+background-color: #6959CD;
+width: 900px;
+height: 300px;
+border-radius: 20px;
+padding: 20px;
+text-align: center;
+margin-left: 80px;
+margin-top: 20px;
+border-bottom: 5px solid #191970;
+position: relative;
+}
+
+.card4{
+color: white;
+background-color: #6959CD;
+width: 650px;
+height: 150px;
+border-radius: 20px;
+padding: 20px;
+text-align: center;
+margin-left: 200px;
+margin-top: 30px;
+border-bottom: 5px solid #191970;
+
+}
+
+.card5{
+color: white;
+background-color: #6959CD;
+width: 1000px;
+height: 900px;
+border-radius: 20px;
+padding: 20px;
+text-align: center;
+margin: 20px;
+border-bottom: 5px solid #191970;
+position: relative;
+}
+
+.card6{
+color: white;
+background-color: #6959CD;
+width: 900px;
+height: 830px;
+border-radius: 20px;
+padding: 20px;
+text-align: center;
+margin-left: 70px;
+border-bottom: 5px solid #191970;
+position: relative;
+}
